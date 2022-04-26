@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+#head{
+    background-size: cover;
+    background-image: url(https://github.com/ArthurVSCMoraes/VitoriaOliveira/blob/master/Vitoria_3.png?raw=true);
+    background-position: 100%;
+    padding: 18% 1%;
+    margin: 0;
+}
+header img{
+    padding-left: 500px;
+}
+
+#head a{
+    float: right;
+    border: 3px solid #ffd700;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #ffd700;
+    font-family: 'Updock', cursive;
+    font-size: 30px;
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    display: inline;
+    margin: 20px;
+}
+
+
+aside{
+    border: 2px solid Red;
+    float: right;
+    padding: 1px;
+    width: 250px;
+}
+
+aside p {
+    text-align: center;
+}
+
+article{
+    margin: 20px;
+    text-align: center;
+}
+
+.tipos_tranças{
+    display: inline-block;
+    text-align: center;
+}
+
+#Box_Braids, #crochet_hair, #Pony_Tail{
+    border-radius: 3%;
+    margin: 20px;
+    width: 240px;
+    background-color: black;
+    text-align: center;
+    height: 370px;
+    color: #ffd700;
+    font-family: 'Updock', cursive;
+    font-size: 20px;
+}
+#Box_Braids p, #Knotless p {
+    float: right;
+}
+
+section h3{
+    font-family: 'Updock', cursive;
+    font-size: 50px;
+}
+.tipos_tranças img{
+    border-radius: 10px;
+}
+
