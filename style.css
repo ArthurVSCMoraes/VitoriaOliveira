@@ -1,20 +1,19 @@
-body{
+body {
     background-color: rgb(255, 255, 255);
     margin: 0;
+    display: flexbox;
 }
 
-#head{
+#head {
     background-size: cover;
     background-image: url(https://github.com/ArthurVSCMoraes/VitoriaOliveira/blob/master/Vitoria_3.png?raw=true);
     background-position: 100%;
     padding: 18% 1%;
     margin: 0;
 }
-header img{
-    padding-left: 500px;
-}
 
-#head a{
+
+#head a {
     float: right;
     border: 3px solid #ffd700;
     border-radius: 10px;
@@ -29,29 +28,68 @@ header img{
     margin: 20px;
 }
 
+nav a {
+    border: 3px solid #ffd700;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #ffd700;
+    font-family: 'Updock', cursive;
+    font-size: 30px;
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
 
-aside{
-    border: 2px solid Red;
+nav {
+    background-color: blacK;
+    padding: 0px 20px;
+    margin: 0px 10px;
+    
+}
+
+aside {
+    text-align: center;
     float: right;
     padding: 1px;
     width: 250px;
+    margin-right: 10px;
+    background-color: black;
+    color: #ffd700;
+    font-family: 'Updock', cursive;
+    font-size: 30px;
+    padding: 10px 5px;
+}
+
+.indice{
+    text-decoration: none;
+    color: #ffd700;
+    border: 3px solid #ffd700;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #ffd700;
+    font-family: 'Updock', cursive;
+    font-size: 30px;
 }
 
 aside p {
     text-align: center;
 }
 
-article{
+article {
     margin: 20px;
     text-align: center;
 }
 
-.tipos_tranças{
+.tipos_tranças {
     display: inline-block;
     text-align: center;
 }
 
-#Box_Braids, #crochet_hair, #Pony_Tail{
+#Box_Braids,
+#crochet_hair,
+#Pony_Tail {
     border-radius: 3%;
     margin: 20px;
     width: 240px;
@@ -62,15 +100,17 @@ article{
     font-family: 'Updock', cursive;
     font-size: 20px;
 }
-#Box_Braids p, #Knotless p {
+
+#Box_Braids p,
+#Knotless p {
     float: right;
 }
 
-section h3{
+section h3 {
     font-family: 'Updock', cursive;
     font-size: 50px;
 }
-.tipos_tranças img{
+
+.tipos_tranças img {
     border-radius: 10px;
 }
-
